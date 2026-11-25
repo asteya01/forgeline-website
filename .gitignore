@@ -1,0 +1,5 @@
+dist/
+*.zip.tmp
+__pycache__/
+.DS_Store
+/forgeline-website.zip
