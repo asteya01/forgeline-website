@@ -10,7 +10,9 @@ page("founders.html", "Founders · Forgeline", "The people behind Forgeline, New
       <h2 style="font-size:clamp(30px,4vw,44px)">Asteya</h2>
       <p class="role">Founder</p>
       <p class="bio">An entrepreneur and builder with hackathon experience. Asteya started Forgeline to make the command line easier to use and coding easier to learn. He built Newton, to stop switching tabs to look up flags, and Freezeframe, to stop retyping code from tutorials.</p>
+      <p class="emailline"><span>Email</span><a href="mailto:tangriasteya@gmail.com">tangriasteya@gmail.com</a></p>
       <div class="acts">
+        <a class="btn ghost" href="mailto:tangriasteya@gmail.com">Email Asteya</a>
         <a class="btn ghost" href="https://github.com/asteya01">GitHub · asteya01</a>
         <button class="btn hot" type="button" data-reveal="num1">Click to see contact number</button>
       </div>
@@ -34,6 +36,7 @@ page("founders.html", "Founders · Forgeline", "The people behind Forgeline, New
   <p class="sub">We'd like to hear from developers, designers and anyone who teaches code.</p>
   <div class="cta" style="display:flex;gap:12px;flex-wrap:wrap;margin-top:26px">
     <button class="btn hot" type="button" data-reveal="num2">Click to see contact number</button>
+    <a class="btn ghost" href="mailto:tangriasteya@gmail.com">Email tangriasteya@gmail.com</a>
     <a class="btn ghost" href="https://github.com/asteya01">Follow on GitHub</a>
   </div>
   <div class="reveal-out" id="num2" aria-live="polite"></div>

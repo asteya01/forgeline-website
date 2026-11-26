@@ -47,7 +47,8 @@
       <div class="theo-log" role="log" aria-live="off"></div>
       <div class="sr" aria-live="polite"></div>
       <footer class="theo-foot"><label class="sr" for="theo-q">Choose a question</label>
-        <select id="theo-q" disabled><option value="">Choose a question…</option>${opts}</select></footer>
+        <select id="theo-q" disabled><option value="">Choose a question…</option>${opts}</select>
+        <p class="theo-mail">Need a person? <a href="mailto:tangriasteya@gmail.com">tangriasteya@gmail.com</a></p></footer>
     </section>`;
   document.body.append(...wrap.children);
 

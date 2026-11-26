@@ -407,3 +407,10 @@ footer{padding-bottom:104px}
 
 .nc-mail{display:block;font:600 clamp(16px,2.2vw,19px) "Instrument Sans",sans-serif;color:var(--ember2);text-decoration:underline;text-underline-offset:3px;overflow-wrap:anywhere}
 .nc-mail:hover{text-decoration-thickness:2px}
+
+.emailline{display:flex;gap:10px;align-items:baseline;flex-wrap:wrap;margin:16px 0 0}
+.emailline span{color:var(--muted,#9aa3ad);font-size:14px}
+.emailline a{font:600 clamp(16px,2.2vw,19px) "Instrument Sans",sans-serif;color:var(--ember);text-decoration:underline;text-underline-offset:3px;overflow-wrap:anywhere}
+.emailline a:hover{text-decoration-thickness:2px}
+.theo-mail{margin:10px 2px 0;font-size:13px;color:var(--muted,#9aa3ad)}
+.theo-mail a{color:var(--ember);text-decoration:underline;text-underline-offset:3px;overflow-wrap:anywhere}
