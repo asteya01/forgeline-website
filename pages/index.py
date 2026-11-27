@@ -1,11 +1,11 @@
-page("index.html", "Forgeline", "Forgeline makes coding tools for every level: Newton for the terminal and Freezeframe for coding videos.", """
+page("index.html", "Forgeline", "Forgeline makes coding tools for every level: Newton for the terminal, Freezeframe for coding videos and Forge Browser for private browsing with AI.", """
 <main id="top">
 <section class="band hero"><div class="wrap">
   <h1 style="font-size:clamp(44px,8vw,96px)">Forge ahead.</h1>
   <p class="lede">Forgeline makes coding tools for every level, from the first command you type to your thousandth deploy. Each one works right where you already are, so you spend less time searching and switching tabs, and more time building.</p>
   <div class="cta"><a class="btn hot" href="#products">See the tools</a><a class="btn ghost" href="about.html">Why we build them</a></div>
 
-  <div class="pair" id="products">
+  <div class="pair three" id="products">
     <a class="prodcard" href="newton.html">
       <div class="shot" aria-hidden="true"><div class="mini">
         <div class="dim">$ git status</div>
@@ -23,6 +23,12 @@ page("index.html", "Forgeline", "Forgeline makes coding tools for every level: N
       <div class="pc-body"><h2 style="font-size:clamp(26px,3vw,34px)">Freezeframe</h2>
         <p>Copy code straight out of coding videos. Freeze the tutorial, drag around the code, and get real text you can paste, edit, or improve with AI.</p>
         <span class="go">Explore Freezeframe</span></div>
+    </a>
+    <a class="prodcard" href="forgebrowser.html">
+      <div class="shot"><img src="img/fb-newtab.webp" alt="Forge Browser's new tab page with the Forge logo, a search box and shortcut tiles" width="1280" height="800"></div>
+      <div class="pc-body"><h2 style="font-size:clamp(26px,3vw,34px)">Forge Browser</h2>
+        <p>A private browser with an AI side panel that can run offline. Free for Windows, Mac, Linux and ChromeOS.</p>
+        <span class="go">Download Forge Browser</span></div>
     </a>
   </div>
 </div></section>

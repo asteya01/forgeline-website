@@ -414,3 +414,26 @@ footer{padding-bottom:104px}
 .emailline a:hover{text-decoration-thickness:2px}
 .theo-mail{margin:10px 2px 0;font-size:13px;color:var(--muted,#9aa3ad)}
 .theo-mail a{color:var(--ember);text-decoration:underline;text-underline-offset:3px;overflow-wrap:anywhere}
+
+/* Forge Browser: three-up product row and the download cards */
+.pair.three{grid-template-columns:repeat(3,minmax(0,1fr))}
+@media(max-width:1000px){.pair.three{grid-template-columns:minmax(0,1fr)}}
+.dlgrid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:clamp(16px,2.5vw,28px);margin-top:40px}
+@media(max-width:860px){.dlgrid{grid-template-columns:minmax(0,1fr)}}
+.dlcard{position:relative;border:1px solid var(--line);border-radius:18px;background:var(--bg);padding:clamp(22px,3vw,32px);display:flex;flex-direction:column;gap:14px;scroll-margin-top:96px}
+.dlcard:target,.dlcard[data-rec]{border-color:var(--ember)}
+.dlcard h3{font-size:clamp(24px,2.6vw,30px)}
+.dlmeta{color:var(--mute);font-size:15px;margin:0}
+.dlbtns{display:flex;gap:10px;flex-wrap:wrap}
+.dlsteps{margin:4px 0 0;padding-left:22px;display:grid;gap:8px;color:var(--mute);font-size:15.5px}
+.dlsteps li::marker{color:var(--ember);font-weight:700}
+.dlsteps b{color:var(--ink);font-weight:600}
+.dlcard .code{margin-top:0}
+.badge{align-self:flex-start;font:600 13px "Instrument Sans",sans-serif;color:#fff;background:var(--ember);border-radius:999px;padding:4px 12px}
+.sums{margin-top:36px}
+.sums summary{font-weight:600}
+.sums .stack{margin-top:14px;font-size:14px}
+.fine{font-size:14px;color:var(--mute);margin-top:18px}
+.shots3.plain h3::before{content:none}
+.code .copy{position:absolute;top:10px;right:10px}
+.dlcard .code pre{padding-right:84px}

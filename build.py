@@ -12,7 +12,7 @@ SITE_URL = ""
 LOGO = ('<svg width="28" height="28" viewBox="0 0 32 32" aria-hidden="true"><path d="M4 9h24l-3 6H14v3l-4 3v-6H7z" fill="currentColor"/>'
         '<path d="M11 24h10l2 4H9z" fill="currentColor"/><path d="M19 4c2 2 1 3 3 4" stroke="#ff4d12" stroke-width="2.4" fill="none" stroke-linecap="round"/></svg>')
 
-COMPANY_NAV = [("newton.html", "Newton"), ("freezeframe.html", "Freezeframe"), ("about.html", "About"),
+COMPANY_NAV = [("newton.html", "Newton"), ("freezeframe.html", "Freezeframe"), ("forgebrowser.html", "Forge Browser"), ("about.html", "About"),
                ("founders.html", "Founders"), ("invest.html", "Invest"), ("donate.html", "Donate")]
 
 
@@ -103,7 +103,7 @@ def header(page, product=None, anchors=None, cta=("index.html#products", "Get th
 FOOTER = """<footer>
   <div class="foot">
     <div><a class="brand" href="index.html">""" + LOGO + """Forgeline</a><p><b style="color:var(--ink)">Forge ahead.</b> Tools for coding at every level, from your first command to your thousandth deploy.</p></div>
-    <div><h4>Products</h4><a href="newton.html">Newton</a><a href="freezeframe.html">Freezeframe</a><a href="newton.html#install">Install Newton</a><a href="freezeframe.html#install">Install Freezeframe</a></div>
+    <div><h4>Products</h4><a href="newton.html">Newton</a><a href="freezeframe.html">Freezeframe</a><a href="forgebrowser.html">Forge Browser</a><a href="newton.html#install">Install Newton</a><a href="freezeframe.html#install">Install Freezeframe</a><a href="forgebrowser.html#download">Download Forge Browser</a></div>
     <div><h4>Company</h4><a href="about.html">About</a><a href="founders.html">Founders</a><a href="invest.html">Invest</a><a href="donate.html">Donate</a></div>
     <div><h4>Open source</h4><a href="https://github.com/asteya01">GitHub</a><a href="newton.html#faq">Newton FAQ</a><a href="freezeframe.html#faq">Freezeframe FAQ</a></div>
     <div><h4>Legal</h4><a href="privacy.html">Privacy</a><a href="terms.html">Terms</a></div>
@@ -161,5 +161,5 @@ page("newton.html", "Newton by Forgeline", "Newton: describe a task in plain Eng
      '<main id="top">' + main + "</main>\n", product="Newton", anchors=NEWTON_ANCHORS, cta=("#install", "Install Newton"),
      extra_script="<script>" + script + "</script>\n")
 
-for name in ["index", "freezeframe", "about", "founders", "invest", "donate", "privacy", "terms", "notfound"]:
+for name in ["index", "freezeframe", "forgebrowser", "about", "founders", "invest", "donate", "privacy", "terms", "notfound"]:
     exec((HERE / "pages" / f"{name}.py").read_text())

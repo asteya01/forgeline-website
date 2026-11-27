@@ -1,0 +1,7 @@
+5b599ae0831afa3d304a62fc0777e99f7d689ae455464e98cc0cf4b139484841  forge-browser-0.4.0-windows-x64.zip
+c0d7c46607e6077c3b8a49ea7c425f77cf48bf08980f197dace75a94d7ab4793  forge-browser-0.4.0-mac-arm64.zip
+260881f4fa7eab2f1a6a20e6b67728a94134496c2a2c37dfb84a1a197ba7ae06  forge-browser-0.4.0-mac-x64.zip
+d0b45a7e009fa81df71c082cf20f6eced85700923ec41a9677aa54418ba31457  forge-browser_0.4.0_amd64.deb
+9b46cbce0412e01a087483e9e6be085b65a170999b61d2bbeaf07a48e1d7c835  forge-browser_0.4.0_arm64.deb
+f27af81eb816c851ee4e5b22c9a37323337b2783931821e3f089e06cedf6ce35  forge-browser-0.4.0-linux-x64.zip
+4af04f48df1ebdd9092f2e515dd9f254c0a0fa3515d0bdae48f0602caca20443  forge-browser-0.4.0-linux-arm64.zip
